@@ -1,0 +1,10 @@
+.editHeader {
+	position: absolute;
+	top: -2rem;
+	left: 0;
+	right: 0;
+	max-width: 50rem;
+	padding: 0 2rem;
+	display: flex;
+	justify-content: space-between;
+}
