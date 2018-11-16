@@ -5,7 +5,7 @@ import 'molecules/PostRender/PostRender.css';
 const Post = props => {
 	return (
 		<div className="post">
-			<h2>{props.title}</h2>
+			<h1>{props.title}</h1>
 			<ReactMarkdown source={props.body} escapeHtml={false} />
 		</div>
 	);

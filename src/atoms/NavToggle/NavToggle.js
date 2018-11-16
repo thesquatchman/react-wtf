@@ -10,6 +10,7 @@ const NavToggle = props => {
 		<div className="NavToggle">
 			<IconButton
 				color="#fff"
+				background="#282c34"
 				onClick={() => {
 					dispatch({ type: NAV_OPEN });
 				}}

@@ -20,6 +20,7 @@
   padding: 10rem 0 0;
   top: 0;
   left: 0;
+  z-index: 99;
 }
 .App-header.open {
   transform: translate3d(0, 0, 0);
